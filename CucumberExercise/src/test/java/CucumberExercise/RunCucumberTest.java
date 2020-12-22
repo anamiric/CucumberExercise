@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty"}, tags = "@Watchlist")
+@CucumberOptions(plugin = {"pretty"})
 public class RunCucumberTest {
 
 }
