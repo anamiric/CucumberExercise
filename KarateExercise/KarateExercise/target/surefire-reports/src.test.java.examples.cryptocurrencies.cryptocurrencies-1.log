@@ -1,0 +1,258 @@
+23:15:51.538 found scenario at line: 8 - ^check cryptocurrency name$
+23:15:53.442 karate.env system property was: null 
+23:16:02.258 request:
+1 > GET https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/info?id=3843
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: sandbox-api.coinmarketcap.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+1 > X-CMC_PRO_API_KEY: b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c
+
+23:16:04.407 response time in milliseconds: 2126.06
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 605d3487ba2c7c40-BEG
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 22 Dec 2020 22:16:05 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9ed1fe2f85999046be06ad82c36a61c21608675365; expires=Thu, 21-Jan-21 22:16:05 GMT; path=/; domain=.coinmarketcap.com; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < cache-control: no-cache
+1 < cf-request-id: 072e1f28d600007c406592b000000001
+1 < vary: origin,accept-encoding
+{"status":{"timestamp":"2020-12-22T22:16:05.222Z","error_code":0,"error_message":null,"elapsed":8,"credit_count":1,"notice":null},"data":{"3843":{"urls":{"website":["https://bolt.global/"],"technical_doc":["https://www.slideshare.net/secret/BFGrVsSUUcQa2Y"],"twitter":["https://twitter.com/Bolt_Global"],"reddit":[],"message_board":["https://medium.com/bolt-global"],"announcement":[],"chat":[],"explorer":["https://etherscan.io/token/0x9f235d23354857efe6c541db92a9ef1877689bcb","https://ethplorer.io/address/0x9f235d23354857efe6c541db92a9ef1877689bcb"],"source_code":["https://github.com/SyQic-Ops/bolt"]},"logo":"https://s2.coinmarketcap.com/static/img/coins/64x64/3843.png","id":3843,"name":"BOLT","symbol":"BOLT","slug":"bolt","description":"BOLT’s vision is to be the largest mobile wallet in the world, powered by content. Our mission is to democratise the chain between content producers and users.We built BOLT as an ecosystem on the Blockchain to provide an in-ecosystem store of value which increases as utility increases. We built BOLT on a core set of values centered around transparency, collaboration, and innovation. These values drive how we work with our community and how we engage with our users. We believe that BOLT can be a win-win for creators and users to mutually unlock value by participating equally in the ecosystem- whether by contributing a news highlight from Tanzania or subtitling a Korean music video into Bahasa Indonesian. BOLT users can accumulate the BOLT tokens to be used within the ecosystem, or exchange it for other popular tokens which can be bartered in their respective fiat values.","notice":null,"date_added":"2019-04-05T00:00:00.000Z","tags":null,"date_launched":null,"platform":{"id":1027,"name":"Ethereum","symbol":"ETH","slug":"ethereum","token_address":"0x9f235d23354857efe6c541db92a9ef1877689bcb"},"category":"token"}}}
+
+-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+23:14:35.878 request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=d886129daa5ff715dc572a4a68bee6a7c1608675275
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+23:14:36.117 response time in milliseconds: 212.66
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 28562
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 605d32616aabbec9-FRA
+2 < Cache-Control: max-age=43200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Tue, 22 Dec 2020 22:14:37 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Pragma: no-cache
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=o7LnQE%2B7TB5%2FFTx%2FDN%2FaVNvnS7IxeyjpcpO87acZhT%2BRQ%2BjH%2Beq7NUCzYP7oDgnn2IBtDA4q%2BThOpJrHdgD4zEhyTRr%2FD4Uj2Z5pVvZ85AFdHeSiNg%2FO%2BPGhJap8"}],"group":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1608335297
+2 < cf-request-id: 072e1dd0e40000bec9c6007000000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+

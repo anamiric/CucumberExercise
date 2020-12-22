@@ -1,0 +1,26 @@
+00:03:29.264 found scenario at line: 38 - ^check website url is present$
+00:03:31.246 karate.env system property was: null 
+00:03:39.343 request:
+1 > GET https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/info?id=3843
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: sandbox-api.coinmarketcap.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+1 > X-CMC_PRO_API_KEY: b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c
+
+00:03:41.012 response time in milliseconds: 1650.76
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 605d7a45bbec7c7c-BEG
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 22 Dec 2020 23:03:41 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddeaf247c475f441d251c439caed69ebc1608678221; expires=Thu, 21-Jan-21 23:03:41 GMT; path=/; domain=.coinmarketcap.com; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < cache-control: no-cache
+1 < cf-request-id: 072e4abf9000007c7cdf07d000000001
+1 < vary: origin,accept-encoding
+{"status":{"timestamp":"2020-12-22T23:03:41.858Z","error_code":0,"error_message":null,"elapsed":6,"credit_count":1,"notice":null},"data":{"3843":{"urls":{"website":["https://bolt.global/"],"technical_doc":["https://www.slideshare.net/secret/BFGrVsSUUcQa2Y"],"twitter":["https://twitter.com/Bolt_Global"],"reddit":[],"message_board":["https://medium.com/bolt-global"],"announcement":[],"chat":[],"explorer":["https://etherscan.io/token/0x9f235d23354857efe6c541db92a9ef1877689bcb","https://ethplorer.io/address/0x9f235d23354857efe6c541db92a9ef1877689bcb"],"source_code":["https://github.com/SyQic-Ops/bolt"]},"logo":"https://s2.coinmarketcap.com/static/img/coins/64x64/3843.png","id":3843,"name":"BOLT","symbol":"BOLT","slug":"bolt","description":"BOLT’s vision is to be the largest mobile wallet in the world, powered by content. Our mission is to democratise the chain between content producers and users.We built BOLT as an ecosystem on the Blockchain to provide an in-ecosystem store of value which increases as utility increases. We built BOLT on a core set of values centered around transparency, collaboration, and innovation. These values drive how we work with our community and how we engage with our users. We believe that BOLT can be a win-win for creators and users to mutually unlock value by participating equally in the ecosystem- whether by contributing a news highlight from Tanzania or subtitling a Korean music video into Bahasa Indonesian. BOLT users can accumulate the BOLT tokens to be used within the ecosystem, or exchange it for other popular tokens which can be bartered in their respective fiat values.","notice":null,"date_added":"2019-04-05T00:00:00.000Z","tags":null,"date_launched":null,"platform":{"id":1027,"name":"Ethereum","symbol":"ETH","slug":"ethereum","token_address":"0x9f235d23354857efe6c541db92a9ef1877689bcb"},"category":"token"}}}
+
